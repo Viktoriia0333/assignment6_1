@@ -10,6 +10,8 @@ def calculate():
                 print(f'{a} - {b} = {a - b}')
             case '*':
                 print(f'{a} * {b} = {a * b}')
+            case '/':
+                print(f'{a} / {b} = {a / b}')
             case _:
                 print(f"I don`t know this operation yet")
     except ValueError:
